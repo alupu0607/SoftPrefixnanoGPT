@@ -9,8 +9,12 @@ M_VALUES = [1, 5, 10, 20]
 TASK      = "wikitext2"
 DEVICE    = "cuda"
 
+from pathlib import Path
 import sys
-sys.path.insert(0, "/kaggle/working/nanoGPT")
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
+
 from model import GPT, GPTConfig, SoftPrefix
 from contextlib import nullcontext
 import numpy as np
