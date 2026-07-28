@@ -40,6 +40,8 @@ The main training configuration disables Weights & Biases logging by default. It
 
 ## Prepare WikiText-2
 
+Ensure the right folders and W&B project names appear under /config. Then, process your dataset.
+
 ```bash
 python data/wikitext2/prepare.py
 ```

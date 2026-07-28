@@ -4,7 +4,7 @@ log_interval = 10
 always_save_checkpoint = False
 
 wandb_log = True
-wandb_project = 'nanoGPT-dissertation'
+wandb_project = ''
 
 init_from = 'gpt2'
 dataset = 'wikitext2'

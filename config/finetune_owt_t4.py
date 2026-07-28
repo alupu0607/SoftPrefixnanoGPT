@@ -3,7 +3,7 @@
 # Finetune GPT-2 124M on OWT — tuned for single T4 16GB
 # Replaces train_gpt2.py which requires 8x A100
 
-out_dir = '/kaggle/working/gpt2_owt_baseline'
+out_dir = ''
 eval_interval = 500
 eval_iters = 100
 log_interval = 10
@@ -11,8 +11,8 @@ always_save_checkpoint = True
 
 # WandB — same project/run name as before
 wandb_log = True
-wandb_project = 'nanoGPT-dissertation'
-wandb_run_name = 'gpt2-owt-kaggle-baseline'
+wandb_project = ''
+wandb_run_name = ''
 
 # Init from pretrained GPT-2 (finetuning, not scratch)
 init_from = 'gpt2'
