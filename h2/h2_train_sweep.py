@@ -64,7 +64,6 @@ for L in RUN_ORDER:
                 f"--out_dir={out_dir}",
                 f"--block_size={MAX_POSITIONS}",
                 f"--prefix_type=soft",
-                f"--wandb_run_name={run_name}",
                 f"--prefix_cache=True",
                 ] + extra_flags
 

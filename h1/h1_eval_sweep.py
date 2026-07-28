@@ -16,7 +16,7 @@ import numpy as np
 
 api     = wandb.Api()
 ENTITY  = api.default_entity
-PROJECT = "nanoGPT-dissertation"
+PROJECT = ""
 print(f"WandB entity: {ENTITY}")
 
 DROPOUT = 0.0

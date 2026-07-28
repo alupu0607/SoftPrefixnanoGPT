@@ -11,11 +11,8 @@ import torch
 import wandb
 
 
-RUN_IDS = [
-
-    "h9arvics" # 16, 1, off
-]
-PROJECT = "nanoGPT-dissertation"
+RUN_IDS = []
+PROJECT = ""
 TASK = "wikitext2"
 DEVICE = "cuda"
 MODEL_TYPE = "gpt2"

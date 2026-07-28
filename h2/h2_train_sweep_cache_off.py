@@ -56,7 +56,6 @@ for L in RUN_ORDER:
             f"--max_iters=2500",
             f"--learning_rate={LR}",
             f"--prefix_type=soft",
-            f"--wandb_run_name={run_name}",
         ] + extra_flags
 
         proc = subprocess.run(cmd, capture_output=False, text=True)
