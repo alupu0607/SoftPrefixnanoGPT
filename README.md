@@ -90,11 +90,6 @@ The dedicated evaluation settings are:
 - seed: 1337
 - dropout: 0.0
 
-## Paper tables and figures
-
-The analysis notebook consumes anonymized exported result CSV files and generates the paper tables and figures. It keeps cache-on/cache-off comparisons matched at fixed \((L,m)\).
-
-The dense prefix-length table uses the cache-off, \(m=1\) runs. The sparse quality--time grid uses cache-on runs. Matched training and dedicated evaluation tables compare cache on and cache off at the same \((L,m)\).
 
 ## Principal experimental configuration
 
